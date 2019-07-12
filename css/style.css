@@ -1,0 +1,55 @@
+/*general*/
+
+body{
+  padding: 0;
+  margin: 0;
+}
+
+/*menus*/
+a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+ul{
+  margin: 0;
+  padding-top: 2em;
+  padding-right: 2em;
+  float: right;
+  list-style-type: none;
+}
+
+li{
+    display: inline-block;
+}
+
+header{
+  width: 100%;
+  position: sticky;
+  border-bottom: 1px solid black;
+  vertical-align: middle;
+}
+
+.home{
+  padding-left: 1em;
+  display: inline-block;
+}
+
+footer{
+  border-top: 1px solid black;
+  width: 100%;
+  position: 100%;
+}
+
+/*mains*/
+
+.main_home{
+}
+
+#bild_home{
+  height: 35%;
+  width: 35%;
+  position: relative;
+  filter: grayscale(100%);
+
+}
