@@ -1,55 +1,84 @@
 /*general*/
 
-body{
+html, body{
+  background-image: url(../img/bild2.jpg);
+  background-attachment:fixed;
+  background-size: cover;
+  background-position: 65% 35%;
+  height: 85%;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
 
-/*menus*/
-a{
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-}
 
-ul{
-  margin: 0;
-  padding-top: 2em;
-  padding-right: 2em;
-  float: right;
-  list-style-type: none;
-}
 
-li{
-    display: inline-block;
-}
-
-header{
-  width: 100%;
-  position: sticky;
-  border-bottom: 1px solid black;
+/*sidebar*/
+.sidebar{
+  height: 100%;
+  width: 200px;
+  color: white;
+  margin-top: 10%;
+  margin-left: 70%;
   vertical-align: middle;
 }
 
-.home{
-  padding-left: 1em;
+.sidebar h1{
+  padding-top: 15px;
+  border-top: 3px solid white;
+  font-family: Cambria;
+  font-size: 3em;
+  text-align: right;
+}
+
+.sidebar a{
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar ul{
+  padding: 0;
+  margin: 0;
+  font-size: 2em;
+  line-height: 1.5;
+  list-style: none;
+  text-align: right;
+  font-family: Cambria;
+}
+
+/*footer*/
+
+.footer{
+  width: 100%;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
+}
+
+.footer ul{
+  list-style: none;
   display: inline-block;
 }
 
-footer{
-  border-top: 1px solid black;
-  width: 100%;
-  position: 100%;
+.footer li{
+  font-style: oblique;
+  display: inline-block;
 }
 
-/*mains*/
-
-.main_home{
+.social_icon{
+  height: 30px;
+  width: 30px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-top: 2px;
+  filter: invert(100%);
+  transition: 0.3s;
 }
 
-#bild_home{
-  height: 35%;
-  width: 35%;
-  position: relative;
-  filter: grayscale(100%);
-
+.social_icon:hover {
+  filter: invert(20%);
 }
