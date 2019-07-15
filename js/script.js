@@ -35,6 +35,7 @@ function toggle_content(content){
 }
 
 function clear(){
+  $("#contacttext").hide();
   $("#vitatext").hide();
   $("#terminetext").hide();
   $("#videostext").hide();
