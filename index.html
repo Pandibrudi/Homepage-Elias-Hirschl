@@ -4,31 +4,48 @@
     <meta charset="utf-8">
     <title>Elias Hirschl</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
   </head>
   <body>
+  <div class="content">
     <div class="sidebar">
-      <h1 class="home"><a href="index.html">Elias Hirschl</a></h1>
+      <h1 class="home"><a id="home" onclick="toggle_content('home')">Elias Hirschl</a></h1>
       <ul class = "navigation_side">
-        <li><a href="vita.html">Vita</a></li>
-        <li><a href="gigs.html">Termine</a></li>
-        <li><a href="videos.html">Videos</a></li>
-        <li><a href="books">Bücher</a></li>
-        <li><a href="contact.html">Kontakt</a></li>
+        <li><a href="#" id="vita" onclick="toggle_content('vita')">Vita</a></li>
+        <li><a href="#" id="gigs" onclick="toggle_content('gigs')">Termine</a></li>
+        <li><a href="#" id="videos" onclick="toggle_content('videos')">Videos</a></li>
+        <li><a href="#" id="books" onclick="toggle_content('books')">Bücher</a></li>
+        <li><a href="#" id="contact" onclick="toggle_content('contact')">Kontakt</a></li>
       </ul>
     </div>
-    <main class="main_home">
-
-    </main>
-    <div class="footer">
-      <ul class = "navigation_footer">
-        <li><a href="datenschutz.html">Datenschutz</a></li>
-        <li><a href="impressum.html">Impressum</a></li>
-      </ul>
-      <ul class = "social_hub">
+    <div id="vitatext" style="display:none;">
+      <h2>Vita</h2>
+      <p>Elias Hirschl wurde 1994 in Wien geboren, ist Romanautor, Slam Poet, Musiker und schreibt fürs Theater. Zuletzt erschienen der Roman „Hundert schwarze Nähmaschinen“ (2017, Jung und Jung) und die Kurztextsammlung „Glückliche Schweine im freien Fall“ (2018, Lektora). Im Mai 2018 feierte das Stück „Die wunderbare Zerstörung des Mannes“ des Aktionstheater Ensembles mit Texten von Martin Gruber und Elias Hirschl in Bregenz und Wien Premiere. 2014 wurde er österreichischer Meister im    Poetry Slam und ist seit mehreren Jahren erfolgreich mit Spoken Word-Texten auf Bühnen auf Deutsch und Englisch in ganz Europa unterwegs. Im Sommer 2018 war er Stipendiat am Literarischen Colloquium Berlin. Gemeinsam mit dem Wiener Musiker Jimmy Brainless war er im Frühjahr 2017 und 2019 auf Ostasientour und hielt Workshops und Vorträge in Universitäten, Kulturforen und Festivals in Taiwan, China, Südkorea und auf den Philippinen. Elias Hirschl lebt in Wien.</p>
+    </div>
+    <div id="terminetext" style="display:none;">
+      <h2>Termine</h2>
+      <p>Derzeit keine Termine</p>
+    </div>
+    <div id="videostext" style="display:none;">
+      <h2>Videos</h2>
+      <iframe width="400" height="206" src="https://www.youtube-nocookie.com/embed/W8Y9gtVeAzE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="400" height="206" src="https://www.youtube-nocookie.com/embed/beAiAejXV0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <iframe width="400" height="206" src="https://www.youtube-nocookie.com/embed/lqqkAsBlNKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div id="buechertext" style="display:none;">
+      <h2>Bücher</h2>
+      <p></p>
+    </div>
+    </div>
+    <footer>
+      <ul class ="social_legal">
         <li><a href="https://twitter.com/hirschiboi"><img class="social_icon" src="./img/twitter.png"></a></li>
         <li><a href="https://www.facebook.com/derhirschl/"><img class="social_icon" src="./img/fb.png"></a></li>
         <li><a href="https://www.instagram.com/eliashirschl/"><img class="social_icon" src="./img/insta.png"></a></li>
+        <li><a href="datenschutz.html">Datenschutz</a></li>
+        <li><a href="impressum.html">Impressum</a></li>
       </ul>
-    </div>
+    <footer>
   </body>
 </html>
