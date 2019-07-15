@@ -13,6 +13,8 @@ html, body{
   margin: 0;
 }
 
+
+
 /*sidebar*/
 #home:hover{
   cursor: pointer;
@@ -124,8 +126,9 @@ p{
 #vitatext{
   margin-top: 8%;
   margin-left: 4%;
-  width: 45%;
+  width: 50%;
   color: white;
+  line-height: 1.5;
   font-style: Cambria;
   position: absolute;
   background-color: rgba(0,0,0,0.9);
@@ -143,7 +146,74 @@ p{
   margin-top: 6%;
   margin-left: 4%;
   padding: 15px;
-  width: 55%;
+  width: 62%;
+}
+
+#buechertext{
+  margin-top: 8%;
+  margin-left: 4%;
+  width: 62%;
+  color: white;
+  font-style: Cambria;
+  background-color: rgba(0,0,0,0.9);
+  text-align: center;
+}
+
+.buchkachel{
+  display: inline-block;
+}
+
+.buchkachel img{
+  height: 300px;
+  padding: 15px;
+  margin: 0;
+  transition-delay: 3s;
+}
+
+.buchkachel:hover{
+  filter: grayscale(80%);
+  cursor: pointer;
+}
+
+#contacttext{
+  margin-top: 8%;
+  margin-left: 4%;
+  width: 40%;
+  color: white;
+  line-height: 1.5;
+  font-style: Cambria;
+  position: absolute;
+  background-color: rgba(0,0,0,0.9);
+}
+
+form{
+
+}
+
+#contacttext input{
+  padding: 5px;
+  margin: 5px;
+  width: 33%;
+  display: inline-block;
+  font-family: Cambria;
+  font-size: 1.5em;
+}
+
+#contacttext textarea{
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  width: 70%;
+  height: 30%;
+  font-family: Cambria;
+  font-size: 1.5em;
+}
+
+#contacttext button{
+  display: block;
+  font-family: Cambria;
+  font-size: 1.5em;
+
 }
 
 
