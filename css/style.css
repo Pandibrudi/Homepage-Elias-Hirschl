@@ -171,23 +171,19 @@ p{
 }
 
 .buchkachel:hover{
-  filter: grayscale(80%);
+  transform: translateY(-5px);
   cursor: pointer;
 }
 
 #contacttext{
   margin-top: 8%;
-  margin-left: 4%;
-  width: 40%;
+  margin-left: 6%;
+  width: 30%;
   color: white;
   line-height: 1.5;
   font-style: Cambria;
   position: absolute;
   background-color: rgba(0,0,0,0.9);
-}
-
-form{
-
 }
 
 #contacttext input{
@@ -196,26 +192,40 @@ form{
   width: 33%;
   display: inline-block;
   font-family: Cambria;
-  font-size: 1.5em;
+  font-size: 1em;
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(0, 0, 0);
 }
 
 #contacttext textarea{
   padding: 5px;
   margin: 5px;
   display: inline-block;
-  width: 70%;
+  min-width: 70%;
+  max-width: 70%;
   height: 30%;
   font-family: Cambria;
   font-size: 1.5em;
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(0, 0, 0);
 }
 
 #contacttext button{
   display: block;
   font-family: Cambria;
   font-size: 1.5em;
-
+  background-color: black;
+  border-radius: 15px;
+  color: white;
+  padding: 5px;
 }
 
+#contacttext button:hover{
+  cursor: pointer;
+  filter: invert(100%);
+}
 
 /*keyframes*/
 @keyframes fade {
