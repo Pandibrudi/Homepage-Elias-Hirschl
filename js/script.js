@@ -37,6 +37,7 @@ function toggle_content(content){
     $("#contacttext").fadeToggle();
   }else if (content==="home") {
     clear();
+    $("#mobile-toggle").show();
   }
 }
 
