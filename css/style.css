@@ -12,6 +12,15 @@ html, body{
   margin: 0;
 }
 
+.impressum{
+  color: white;
+  background-color: black;
+}
+
+.impressum a{
+  color: white;
+  text-decoration: underline dotted;
+}
 
 
 /*sidebar*/
@@ -155,14 +164,10 @@ p{
   text-align: center;
   margin-top: 6%;
   margin-left: 4%;
-  width: 30%;
+  width: 50%;
   background-color: rgba(0,0,0,0.9);
   border: 2px solid white;
   z-index: 2;
-}
-
-iframe{
-  width: 400px;
 }
 
 #buechertext{
@@ -221,8 +226,9 @@ iframe{
 
 #contacttext textarea{
   padding: 5px;
-  margin: 5px;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 70%;
   max-width: 70%;
   height: 30%;
@@ -234,14 +240,13 @@ iframe{
 }
 
 #contacttext button{
-  display: block;
   font-family: Cambria;
   font-size: 1.5em;
   background-color: black;
   border-radius: 15px;
   color: white;
   padding: 5px;
-  margin-left: 41%;
+  margin: 15px 0 0 0;
 }
 
 #contacttext button:hover{
