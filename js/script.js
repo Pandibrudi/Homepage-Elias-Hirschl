@@ -1,4 +1,10 @@
 function toggle_content(content){
+
+  let width = document.body.clientWidth;
+    if (width < 800) {
+      $("#mobile-toggle").fadeToggle();
+    };
+
   if (content==="vita") {
     $("#terminetext").hide();
     $("#buechertext").hide();
@@ -40,4 +46,9 @@ function clear(){
   $("#terminetext").hide();
   $("#videostext").hide();
   $("#buechertext").hide();
+}
+
+function menu_x(){
+  $("#mobile-toggle").fadeToggle();
+  clear()
 }

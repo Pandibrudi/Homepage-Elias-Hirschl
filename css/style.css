@@ -26,11 +26,12 @@ html, body{
   margin-top: 10%;
   margin-right: 15%;
   float: right;
+  transition: 0.3s;
+  border-top: 3px solid white;
 }
 
 .sidebar h1{
-  padding-top: 15px;
-  border-top: 3px solid white;
+  padding-top: 5px;
   font-family: Cambria;
   font-size: 3em;
   text-align: right;
@@ -68,6 +69,7 @@ footer{
   display: inline-block;
   float: left;
   width: 100%;
+  z-index: 1;
 }
 
 .social_legal{
@@ -136,6 +138,7 @@ p{
   font-style: Cambria;
   background-color: rgba(0,0,0,0.9);
   border: 2px solid white;
+  z-index: 2;
 }
 
 #terminetext{
@@ -143,17 +146,19 @@ p{
   margin-top: 8%;
   margin-left: 4%;
   width: 40%;
-  position: absolute;
   background-color: rgba(0,0,0,0.9);
   border: 2px solid white;
+  z-index: 2;
 }
 
 #videostext{
   text-align: center;
   margin-top: 6%;
   margin-left: 4%;
-  padding: 15px;
-  width: 62%;
+  width: 30%;
+  background-color: rgba(0,0,0,0.9);
+  border: 2px solid white;
+  z-index: 2;
 }
 
 iframe{
@@ -169,6 +174,7 @@ iframe{
   background-color: rgba(0,0,0,0.9);
   text-align: center;
   border: 2px solid white;
+  z-index: 2;
 }
 
 .buchkachel{
@@ -196,9 +202,9 @@ iframe{
   color: white;
   line-height: 1.5;
   font-style: Cambria;
-  position: absolute;
   border: 2px solid white;
   background-color: rgba(0,0,0,0.9);
+  z-index: 2;
 }
 
 #contacttext input{
@@ -264,68 +270,83 @@ iframe{
     width: 100%;
   }
 
-  #mobile-toggle{
-    display: block;
-    font-size: 50px;
+  .hidden{
+      visibility: hidden;
+  }
+
+  .sidebar{
+    height: 95%;
+    width: 150px;
+    margin: 2% 2% 0 0;
+    padding-right: 10px;
+  }
+
+  .sidebar h1{
+    font-size: 2em;
+  }
+
+  .sidebar ul{
+    font-size: 1.5em;
+  }
+
+  #mobile-toggle a{
+    margin: 2.5% 0 0 2.5%;
+    text-decoration: none;
+    position: absolute;
+    font-size: 2em;
     color: white;
+    z-index: 3;
   }
 
   footer{
     text-align: left;
     padding: 0;
     position: relative;
-    z-index: 1;
   }
 
   iframe{
     width: 360px;
   }
 
-  .sidebar{
-    height: 95%;
-    margin: 0;
-    padding-right: 10px;
-  }
+
 
   #contacttext{
-    margin: 5% 0 0 0;
+    margin: 0;
     width: 100%;
     max-width: 100%;
+    height: 110%;
     position: absolute;
-    z-index: 2;
   }
 
   #videostext{
     padding: 0;
-    margin: 5% 0 0 0;
+    margin: 0;
     width: 100%;
     max-width: 100%;
-    background-color: rgba(0,0,0,0.9);
     position: absolute;
-    z-index: 2;
+    background-color: rgba(0,0,0,0.9);
   }
 
   #vitatext{
-    margin: 5% 0 0 0;
-    width: 100%;
+    margin: 0;
     position: absolute;
-    z-index: 2;
+    width: 100%;
   }
 
   #buechertext{
-    margin: 5% 0 0 0;
+    margin: 0;
     width: 100%;
-    max-width: 100%;
     position: absolute;
-    z-index: 2;
+    max-width: 100%;
+
   }
 
   #terminetext{
-    margin: 5% 0 0 0;
+    margin: 0;
     width: 100%;
-    max-width: 100%;
+    height: 110%;
     position: absolute;
-    z-index: 2;
+    max-width: 100%;
   }
 
 }
