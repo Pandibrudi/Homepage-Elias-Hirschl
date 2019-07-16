@@ -2,7 +2,7 @@ function toggle_content(content){
 
   let width = document.body.clientWidth;
     if (width < 800) {
-      $("#mobile-toggle").fadeToggle();
+      $("#mobile-toggle").show();
     };
 
   if (content==="vita") {
@@ -37,7 +37,6 @@ function toggle_content(content){
     $("#contacttext").fadeToggle();
   }else if (content==="home") {
     clear();
-    $("#mobile-toggle").show();
   }
 }
 
