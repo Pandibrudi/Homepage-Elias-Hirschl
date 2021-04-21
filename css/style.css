@@ -1,7 +1,7 @@
 /*general*/
 
 html, body{
-  background-image: url(../img/bild2.jpg);
+  background-image: url(../img/bild3.jpg);
   background-attachment:fixed;
   background-size: cover;
   background-position: 65% 35%;
@@ -33,12 +33,12 @@ html, body{
 .sidebar{
   height: 70%;
   width: 250px;
-  color: white;
+  color: black;
   margin-top: 10%;
   margin-right: 15%;
   float: right;
   transition: 0.3s;
-  border-top: 3px solid white;
+  border-top: 3px solid black;
 }
 
 .sidebar h1{
@@ -50,18 +50,19 @@ html, body{
 
 .sidebar a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 a{
   transition: 0.3s;
+  color: inherit;
 }
 a.current{
-  filter: invert(70%);
+  filter: invert(100%);
 }
 
 li a:hover{
   cursor: pointer;
-  filter: invert(70%);
+  filter: invert(100%);
 }
 
 .sidebar ul{

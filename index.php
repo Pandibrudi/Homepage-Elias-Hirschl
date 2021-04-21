@@ -23,7 +23,23 @@
     </div>
     <div id="vitatext" style="display:none;">
       <h2>Vita</h2>
-      <p>Elias Hirschl wurde 1994 in Wien geboren, ist Romanautor, Slam Poet, Musiker und schreibt fürs Theater. Zuletzt erschienen der Roman „Hundert schwarze Nähmaschinen“ (2017, Jung und Jung) und die Kurztextsammlung „Glückliche Schweine im freien Fall“ (2018, Lektora). Im Mai 2018 feierte das Stück „Die wunderbare Zerstörung des Mannes“ des Aktionstheater Ensembles mit Texten von Martin Gruber und Elias Hirschl in Bregenz und Wien Premiere. 2014 wurde er österreichischer Meister im    Poetry Slam und ist seit mehreren Jahren erfolgreich mit Spoken Word-Texten auf Bühnen auf Deutsch und Englisch in ganz Europa unterwegs. Im Sommer 2018 war er Stipendiat am Literarischen Colloquium Berlin. Gemeinsam mit dem Wiener Musiker Jimmy Brainless war er im Frühjahr 2017 und 2019 auf Ostasientour und hielt Workshops und Vorträge in Universitäten, Kulturforen und Festivals in Taiwan, China, Südkorea und auf den Philippinen. Elias Hirschl lebt in Wien.</p>
+      <p> Elias Hirschl wurde 1994 in Wien geboren, ist Romanautor, Slam Poet, Musiker und schreibt fürs Theater.
+         
+        Zuletzt erschienen die Romane <a href="https://www.hanser-literaturverlage.de/buch/salonfaehig/978-3-552-07248-0/">"Salonfähig"</a> (August 2021, Zsolnay) und "Hundert schwarze Nähmaschinen (2017, Jung und Jung) 
+        
+        2014 wurde er österreichischer Meister im Poetry Slam und ist seit mehreren Jahren erfolgreich mit Spoken Word-Texten auf Bühnen in ganz Europa unterwegs.  
+        
+        Er schrieb Texte für die Theaterstücke „Swing – Dance to the right“ und „Die wunderbare Zerstörung des Mannes“ vom Aktionstheater Ensemble und tourte 2017 und 2019 zusammen mit dem Wiener <a href="https://www.derstandard.at/story/2000101661054/poetry-slammer-meets-musiker-meets-china-ein-tourstart-mit-hass ">Musiker Jimmy Brainless lesend und singend durch Ostasien.</a>  
+        
+        Im Sommer 2018 war er Stipendiat am Literarischen Colloquium Berlin.  
+        
+        2020 wurde er für sein bisheriges Schaffen mit dem Reinhard-Priessnitz-Preis für Literatur ausgezeichnet. 
+        
+        Seit 2020 schreibt und spricht er zusammen mit Antonia Stabinger, Berni Wagner und Leopold Toriser für die Hörspielreihe <a href="https://fm4.orf.at/tags/dasmagischeauge ">„Das Magische Auge“</a> auf Radio FM4. 
+        
+        Zusammen mit dem Rapper Selbstlaut bildet er das Musikduo <a href="https://strizzi.co/portfolio/eingespenst/ ">„Ein Gespenst“</a> 
+        
+        Elias Hirschl lebt in Wien.</p>
     </div>
     <div id="terminetext" style="display:none;">
       <h2>Termine</h2>
@@ -38,6 +54,10 @@
 
     <div id="buechertext" style="display:none;">
       <h2>Bücher</h2>
+      <div class= "buchkachel">
+        <p><b>Erscheint August 2021</b></p>
+        <a href="https://www.hanser-literaturverlage.de/buch/salonfaehig/978-3-552-07248-0/"><img src="img\saloncover.jpg" alt="Elias Hirschl - Salonfähig"></a>
+      </div>
       <div class = "buchkachel">
         <a href="https://www.amazon.de/Hundert-schwarze-N%C3%A4hmaschinen-Elias-Hirschl/dp/3990270974" target="_blank"><img src="img\maschinencover.jpg"></a>
       </div>
