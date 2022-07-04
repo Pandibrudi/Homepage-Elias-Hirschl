@@ -1,0 +1,30 @@
+html body{
+  margin: 0;
+  padding: 0;
+}
+
+.content{
+  width: 80%;
+  margin-left: 8%;
+  margin-right: 10%;
+  margin-top: 1%;
+}
+
+p{
+  font-family: monospace;
+  font-size: 2em;
+  text-align: justify;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: white;
+}
+
+h5{
+  text-align: center;
+}
+
+#zaehlen{
+  text-align: center;
+}

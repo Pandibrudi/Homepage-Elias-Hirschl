@@ -1,0 +1,10 @@
+Options +Indexes
+RemoveHandler .html
+RemoveType .html
+AddType text/html .html
+Satisfy any
+Order Deny,Allow
+Allow from all
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]

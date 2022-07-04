@@ -1,0 +1,137 @@
+Jan 23 20:47:15 10.71.56.0 u97941696 Connection from 10.71.56.0 port 28052 on 82.165.84.200 port 22
+Jan 23 20:47:15 10.71.56.0 u97941696 Accepted password for u97941696 from 10.71.56.0 port 28052 ssh2
+Jan 23 20:47:15 10.71.56.0 u97941696 Starting session: subsystem 'sftp' for u97941696 from 10.71.56.0 port 28052 id 0
+Jan 23 20:47:15 10.71.56.0 u97941696 session opened for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:27 10.71.56.0 u97941696 Connection from 10.71.56.0 port 18170 on 82.165.84.200 port 22
+Jan 23 20:50:27 10.71.56.0 u97941696 Accepted password for u97941696 from 10.71.56.0 port 18170 ssh2
+Jan 23 20:50:27 10.71.56.0 u97941696 Connection from 10.71.56.0 port 18180 on 82.165.84.200 port 22
+Jan 23 20:50:27 10.71.56.0 u97941696 Accepted password for u97941696 from 10.71.56.0 port 18180 ssh2
+Jan 23 20:50:27 10.71.56.0 u97941696 Starting session: subsystem 'sftp' for u97941696 from 10.71.56.0 port 18170 id 0
+Jan 23 20:50:27 10.71.56.0 u97941696 Starting session: subsystem 'sftp' for u97941696 from 10.71.56.0 port 18180 id 0
+Jan 23 20:50:27 10.71.56.0 u97941696 session opened for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:27 10.71.56.0 u97941696 session opened for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/.htaccess" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/datenschutz.html" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/.htaccess" bytes read 226 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|226|0|0|0|2f2e6874616363657373|]
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/datenschutz.html" bytes read 27975 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|27975|0|0|0|2f646174656e73636875747a2e68746d6c|]
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/form_handler.php" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/impressum.html" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/form_handler.php" bytes read 487 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|487|0|0|0|2f666f726d5f68616e646c65722e706870|]
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/impressum.html" bytes read 3620 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|3620|0|0|0|2f696d7072657373756d2e68746d6c|]
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/index.php" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/style_zaehler.css" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/index.php" bytes read 10020 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|10020|0|0|0|2f696e6465782e706870|]
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/style_zaehler.css" bytes read 428 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|428|0|0|0|2f7374796c655f7a6165686c65722e637373|]
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/vorgehen.md" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 open "/woerterzaehler.js" flags READ mode 0666
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/vorgehen.md" bytes read 267 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|267|0|0|0|2f766f72676568656e2e6d64|]
+Jan 23 20:50:27 10.71.56.0 u97941696 close "/woerterzaehler.js" bytes read 5911 written 0
+Jan 23 20:50:27 10.71.56.0 u97941696 [10.71.56.0|get|0|5911|0|0|0|2f776f65727465727a6165686c65722e6a73|]
+Jan 23 20:50:28 10.71.56.0 u97941696 open "/zaehler.html" flags READ mode 0666
+Jan 23 20:50:28 10.71.56.0 u97941696 open "/zahlenwoerter.js" flags READ mode 0666
+Jan 23 20:50:28 10.71.56.0 u97941696 close "/zaehler.html" bytes read 2527 written 0
+Jan 23 20:50:28 10.71.56.0 u97941696 [10.71.56.0|get|0|2527|0|0|0|2f7a6165686c65722e68746d6c|]
+Jan 23 20:50:28 10.71.56.0 u97941696 close "/zahlenwoerter.js" bytes read 3279 written 0
+Jan 23 20:50:28 10.71.56.0 u97941696 [10.71.56.0|get|0|3279|0|0|0|2f7a61686c656e776f65727465722e6a73|]
+Jan 23 20:50:28 10.71.56.0 u97941696 session closed for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:28 10.71.56.0 u97941696 sent status No such file
+Jan 23 20:50:28 10.71.56.0 u97941696 Connection closed by 10.71.56.0 port 18170
+Jan 23 20:50:28 10.71.56.0 u97941696 session closed for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:28 10.71.56.0 u97941696 Connection closed by 10.71.56.0 port 18180
+Jan 23 20:50:28 10.71.56.0 u97941696 Connection from 10.71.56.0 port 19912 on 82.165.84.200 port 22
+Jan 23 20:50:28 10.71.56.0 u97941696 Accepted password for u97941696 from 10.71.56.0 port 19912 ssh2
+Jan 23 20:50:28 10.71.56.0 u97941696 Connection from 10.71.56.0 port 19866 on 82.165.84.200 port 22
+Jan 23 20:50:28 10.71.56.0 u97941696 Accepted password for u97941696 from 10.71.56.0 port 19866 ssh2
+Jan 23 20:50:28 10.71.56.0 u97941696 Starting session: subsystem 'sftp' for u97941696 from 10.71.56.0 port 19912 id 0
+Jan 23 20:50:28 10.71.56.0 u97941696 Starting session: subsystem 'sftp' for u97941696 from 10.71.56.0 port 19866 id 0
+Jan 23 20:50:28 10.71.56.0 u97941696 session opened for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:28 10.71.56.0 u97941696 session opened for local user u97941696 from [10.71.56.0]
+Jan 23 20:50:28 10.71.56.0 u97941696 open "/img/bild3.jpg" flags READ mode 0666
+Jan 23 20:50:28 10.71.56.0 u97941696 open "/css/style.css" flags READ mode 0666
+Jan 23 20:50:28 10.71.56.0 u97941696 close "/css/style.css" bytes read 5602 written 0
+Jan 23 20:50:28 10.71.56.0 u97941696 [10.71.56.0|get|0|5602|0|0|0|2f6373732f7374796c652e637373|]
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/bild3.jpg" bytes read 456145 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|1|456145|0|0|0|2f696d672f62696c64332e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/saloncover.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/hitlercover.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/hitlercover.jpg" bytes read 53997 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|53997|0|0|0|2f696d672f6869746c6572636f7665722e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/insta.png" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/saloncover.jpg" bytes read 480040 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|480040|0|0|0|2f696d672f73616c6f6e636f7665722e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/insta.png" bytes read 2780 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|2780|0|0|0|2f696d672f696e7374612e706e67|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/dorfcover.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/fb.png" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/dorfcover.jpg" bytes read 52835 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|52835|0|0|0|2f696d672f646f7266636f7665722e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/fb.png" bytes read 2540 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|2540|0|0|0|2f696d672f66622e706e67|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/schweinecover.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/twitter.png" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/schweinecover.jpg" bytes read 158636 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|158636|0|0|0|2f696d672f7363687765696e65636f7665722e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/twitter.png" bytes read 2668 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|2668|0|0|0|2f696d672f747769747465722e706e67|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/mail.png" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/maschinencover.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/mail.png" bytes read 3817 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|3817|0|0|0|2f696d672f6d61696c2e706e67|]
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/maschinencover.jpg" bytes read 35288 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|35288|0|0|0|2f696d672f6d61736368696e656e636f7665722e6a7067|]
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/bild1.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 open "/img/bild2.jpg" flags READ mode 0666
+Jan 23 20:50:29 10.71.56.0 u97941696 close "/img/bild1.jpg" bytes read 1067773 written 0
+Jan 23 20:50:29 10.71.56.0 u97941696 [10.71.56.0|get|0|1067773|0|0|0|2f696d672f62696c64312e6a7067|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/img/bild2.jpg" bytes read 820655 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|1|820655|0|0|0|2f696d672f62696c64322e6a7067|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/js/script.js" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.03.6.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/js/script.js" bytes read 1391 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|1391|0|0|0|2f6a732f7363726970742e6a73|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.03.6.gz" bytes read 5578 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|5578|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e362e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.02.5.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.03.5.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.02.5.gz" bytes read 7122 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|7122|0|0|0|2f6c6f67732f6163636573732e6c6f672e30322e352e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.03.5.gz" bytes read 5235 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|5235|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e352e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.02.1.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.03.7" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.02.1.gz" bytes read 5690 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|5690|0|0|0|2f6c6f67732f6163636573732e6c6f672e30322e312e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.03.7" bytes read 102176 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|102176|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e37|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.03.3.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.03.1.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.03.3.gz" bytes read 5935 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|5935|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e332e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.03.1.gz" bytes read 4171 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|4171|0|0|0|2f6c6f67732f6163636573732e6c6f672e30332e312e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.02.7.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.52.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.02.7.gz" bytes read 6436 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|6436|0|0|0|2f6c6f67732f6163636573732e6c6f672e30322e372e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.52.gz" bytes read 31879 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|31879|0|0|0|2f6c6f67732f6163636573732e6c6f672e35322e677a|]
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.51.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 open "/logs/access.log.50.gz" flags READ mode 0666
+Jan 23 20:50:30 10.71.56.0 u97941696 close "/logs/access.log.51.gz" bytes read 38578 written 0
+Jan 23 20:50:30 10.71.56.0 u97941696 [10.71.56.0|get|0|38578|0|0|0|2f6c6f67732f6163636573732e6c6f672e35312e677a|]
+Jan 23 20:50:31 10.71.56.0 u97941696 close "/logs/access.log.50.gz" bytes read 49083 written 0
+Jan 23 20:50:31 10.71.56.0 u97941696 [10.71.56.0|get|1|49083|0|0|0|2f6c6f67732f6163636573732e6c6f672e35302e677a|]
+Jan 23 20:50:31 10.71.56.0 u97941696 open "/logs/sftp.log.52.gz" flags READ mode 0666
+Jan 23 20:50:31 10.71.56.0 u97941696 open "/logs/access.log.49.gz" flags READ mode 0666
+Jan 23 20:50:31 10.71.56.0 u97941696 close "/logs/sftp.log.52.gz" bytes read 490 written 0
+Jan 23 20:50:31 10.71.56.0 u97941696 [10.71.56.0|get|0|490|0|0|0|2f6c6f67732f736674702e6c6f672e35322e677a|]
+Jan 23 20:50:31 10.71.56.0 u97941696 close "/logs/access.log.49.gz" bytes read 37716 written 0
+Jan 23 20:50:31 10.71.56.0 u97941696 [10.71.56.0|get|0|37716|0|0|0|2f6c6f67732f6163636573732e6c6f672e34392e677a|]
+Jan 23 20:50:31 10.71.56.0 u97941696 open "/logs/sftp.log" flags READ mode 0666

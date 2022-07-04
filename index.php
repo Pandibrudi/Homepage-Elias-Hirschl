@@ -42,8 +42,17 @@
         Elias Hirschl lebt in Wien.</p>
     </div>
     <div id="terminetext" style="display:none;">
-      <h2>Termine</h2>
-      <p>Derzeit keine Termine</p>
+      <h2>Termine 2022</h2>
+      <br>
+      <p>06.07. – Lesung beim Donaufest Ulm</p>
+      <p>14.7.2022 – <a href="https://www.wortlautruhr.com/alle-termine/2022/6/15/lesen-fr-bier-dortmund">Lesen für Bier – Dortmunder U</a></p>
+      <p>30.07. – Auftritt bei Wege durch das Land-Festival</p>
+      <br>
+      <p>05.08. – Spoken Word Abend – Literaturhaus Dortmund</p>
+      <p>30.08. – <a href="https://www.faq-bregenzerwald.com/">Lesung beim FAQ im Bregenzer Wald</a></p>
+      <br>
+      <p>17.09. – Lesung – Dortmund DEW-Museumsnacht</p>
+      <p>19.09. - Digitale Literatur im Literaturhaus Dortmund</p>
     </div>
     <div id="videostext" style="display:none;">
       <h2>Videos</h2>
@@ -55,7 +64,6 @@
     <div id="buechertext" style="display:none;">
       <h2>Bücher</h2>
       <div class= "buchkachel">
-        <p><b>Erscheint August 2021</b></p>
         <a href="https://www.hanser-literaturverlage.de/buch/salonfaehig/978-3-552-07248-0/"><img src="img\saloncover.jpg" alt="Elias Hirschl - Salonfähig"></a>
       </div>
       <div class = "buchkachel">
@@ -74,7 +82,7 @@
 
     <div id="contacttext" style="display:none;">
       <h2>Kontakt</h2>
-      <form id="contactform" action="php/form_handler.php" method="post">
+      <form id="contactform" action="form_handler.php" method="post">
         <input type="text" name="vorname" value="" placeholder="Vorname" minlength="3" maxlength="20" required>
         <input type="text" name="name" value="" placeholder="Nachname" minlength="3" maxlength="20" required>
         <input type="email" name="email" value="" placeholder="example@domain.com" minlength="3" maxlength="30" required>
